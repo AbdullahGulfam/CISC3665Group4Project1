@@ -103,8 +103,8 @@ void reset() {
 }
 
 class Player {
-  String coin;
-  boolean turn;
+  String coin;    //Player coin face selection; "heads" or "tails"
+  boolean turn;   //Whether player made selection or not
   
   Player() {
     coin = " ";
